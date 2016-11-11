@@ -1,5 +1,4 @@
-require('babel/polyfill');
-
+import 'core-js';
 import _ from './util.js';
 import Sister from 'sister';
 

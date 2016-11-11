@@ -7,6 +7,8 @@ var _arguments = arguments;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
+require('core-js');
+
 var _utilJs = require('./util.js');
 
 var _utilJs2 = _interopRequireDefault(_utilJs);
@@ -14,8 +16,6 @@ var _utilJs2 = _interopRequireDefault(_utilJs);
 var _sister = require('sister');
 
 var _sister2 = _interopRequireDefault(_sister);
-
-require('babel/polyfill');
 
 var Contents = undefined;
 
